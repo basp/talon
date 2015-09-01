@@ -1,0 +1,16 @@
+{
+  "name": "talon",
+  "version": "0.1.0",
+  "description": "Socket.io experiments.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basp/talon.git"
+  },
+  "author": "basp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basp/talon/issues"
+  },
+  "homepage": "https://github.com/basp/talon#readme"
+}
