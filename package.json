@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/basp/talon/issues"
   },
-  "homepage": "https://github.com/basp/talon#readme"
+  "homepage": "https://github.com/basp/talon#readme",
+  "devDependencies": {
+    "jasmine": "^2.3.2"
+  }
 }
