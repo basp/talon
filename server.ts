@@ -8,12 +8,6 @@ var app = express();
 var http = require('http').Server(app);
 var io: SocketIO.Server = require('socket.io')(http);
 
-/*
-app.get('/', (req, res) => {
-	res.sendFile(__dirname + '/index.html');
-});
-*/
-
 app.use(express.static('public'));
 
 io.on('connection', (socket: SocketIO.Socket) => {
@@ -22,8 +16,12 @@ io.on('connection', (socket: SocketIO.Socket) => {
 	console.log(`${id} connected`);
 	
 	socket.on('command', (msg) => {
-		console.log(msg);
+		// TODO
 	});
+	
+	setTimeout(() => {
+		socket.emit('notify', 'frotz');
+	}, 5000);
 
 	socket.on('disconnect', () => {
 		console.log(`${id} disconnected`);
