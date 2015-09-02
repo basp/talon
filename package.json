@@ -15,5 +15,10 @@
   "homepage": "https://github.com/basp/talon#readme",
   "devDependencies": {
     "jasmine": "^2.3.2"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mithril": "^0.2.0",
+    "socket.io": "^1.3.6"
   }
 }

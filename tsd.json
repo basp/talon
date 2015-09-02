@@ -7,6 +7,27 @@
   "installed": {
     "jasmine/jasmine.d.ts": {
       "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "mithril/mithril.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "node/node.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "express/express.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "mime/mime.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "socket.io/socket.io.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "socket.io-client/socket.io-client.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
     }
   }
 }
